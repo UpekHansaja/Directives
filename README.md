@@ -14,6 +14,8 @@ For example:
    <%@ page contentType="text/html;charset=UTF-8" %>
    <%@ page errorPage="error.jsp" %>
    <%@ page session="true" %>
+   <%@page isELIgnored="true" %>
+   <%@page isThreadSafe="false" %>
    ```
    Common attributes include:
    - `import`: Specifies the Java packages or classes to import.
